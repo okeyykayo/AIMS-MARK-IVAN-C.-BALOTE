@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<title> Forget your password? </title>
+	<link rel="stylesheet" type="text/css" href="forget.css">
+	<script defer src="scriptt.js"></script>
+</head>
+<body>
+	<div class="header">
+        <img src="logo.jpg">
+        <p id="upper">PHINMA EDUCATION</p>
+        <div class="line"></div>
+        <p id="under">MAKING LIVES BETTER THROUGH EDUCATION</p>
+    </div>
+
+    <div class="acad">Academic Information Management System <i class="fa fa-lock" aria-hidden="true"></i></div>
+
+    <div class="login-box">
+	    <h2>Forget your password?</h2>
+	    <div class="error"></div>
+    	<form id="form" action="/" onsubmit="validation()">
+		    <div class="textbox" id="text">
+		        <label for="name"> Student Number </label><br> 
+		        <i class="fa fa-user" aria-hidden="true"></i>
+		        <input id="name" type="text" placeholder="Enter your student number" required>
+		        <br>
+                <span id="messages"> </span>
+		    </div>
+
+		    
+		    <div class="textbox" id="text1">
+		        <label for="password"> New Password </label><br> 
+		        <i class="fa fa-lock" aria-hidden="true"></i>
+		        <input id="password" type="password" placeholder="Enter your password" required>
+		        <br>
+                <span id="messages2"> </span>
+		    </div>
+
+		    <div class="textbox" id="text2">
+		        <label for="confirm"> Confirm Password </label><br>
+		        <i class="fa fa-lock" aria-hidden="true"></i>
+		        <input id="confirm" type="password" placeholder="Enter your password" required>
+		        <br>
+                <span id="messages3"> </span>
+		    </div>
+
+		     <button type="submit">Confirm</button>
+
+		</form>
+		
+    </div>
+
+</body>
+</html>
+    

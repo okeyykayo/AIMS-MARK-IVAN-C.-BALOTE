@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<title> Register form </title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<script defer src="scriptt.js"></script>
+</head>
+<body>
+	<div class="header">
+        <img src="logo.jpg">
+        <p id="upper">PHINMA EDUCATION</p>
+        <div class="line"></div>
+        <p id="under">MAKING LIVES BETTER THROUGH EDUCATION</p>
+    </div>
+
+    <div class="acad">Academic Information Management System <i class="fa fa-lock" aria-hidden="true"></i></div>
+
+	<div class="login-box">
+    	<h2>Register</h2>
+    	<div class="error"></div>
+    	<form id="form" action="/" onsubmit="validation()">
+			<div class="textbox" id="text">
+		        <label for="name"> Student Number </label><br>   
+		        <i class="fa fa-user" aria-hidden="true"></i>
+		        <input id="name" type="text" placeholder="Enter your student number">
+		        <br>
+                <span id="messages"> </span>
+		    </div>
+
+			<div class="textbox" id="text1">
+		        <label for="email"> Email Address </label><br>   
+		        <i class="fa fa-envelope" aria-hidden="true"></i>
+		        <input id="email" type="text" placeholder="Enter your email">
+		        <br>
+                <span id="messages1"> </span>
+		    </div>
+		    
+			<div class="textbox" id="text2">
+		        <label for="password"> Password </label><br>   
+		        <i class="fa fa-lock" aria-hidden="true"></i>
+		        <input id="password" type="password" placeholder="Enter your password">
+		        <br>
+                <span id="messages2"> </span>
+		    </div>
+		    
+			<div class="textbox" id="text3">
+		        <label for="confirm"> Confirm Password </label><br>   
+		        <i class="fa fa-lock" aria-hidden="true"></i>
+		        <input id="confirm" type="password" placeholder="Confirm your password">
+		        <br>
+                <span id="messages3"> </span>
+		    </div>
+
+		    <span class="rmbr"><input type="checkbox" name="remember"> I accept terms and conditions </span>
+
+		    <button  type="submit" id="submit"> Register </button>
+
+		</form>
+
+    </div>
+
+    <a href="https://accounts.google.com/"><div class="google">Login via<img class="gplus" src="gplus.png"></div></a>
+
+	<a href="https://facebook.com/"><div class="facebook">Login via<img class="fb" src="fb.png"></div></a>
+
+
+</body>
+</html>
